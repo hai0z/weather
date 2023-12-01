@@ -1,0 +1,32 @@
+name: weather
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hidden_drawer_menu: ^3.0.1
+  flutter_screenutil:
+  provider: ^6.0.5
+  build_runner: 
+  path_provider: 
+  http:
+  google_fonts: 
+  intl:
+  weather_icons:
+  shared_preferences: 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/images/
